@@ -1,0 +1,36 @@
+{
+  "name": "Amazon PWA",
+  "short_name": "Amazon",
+  "description": "Amazon Progressive Web App with offline support",
+  "theme_color": "#8936FF",
+  "background_color": "#217591",
+  "icons": [
+    {
+      "purpose": "maskable",
+      "sizes": "512x512",
+      "src": "icon512_maskable.png",
+      "type": "image/png"
+    },
+    {
+      "purpose": "any",
+      "sizes": "512x512",
+      "src": "icon512_rounded.png",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "any",
+  "display": "standalone",
+  "dir": "auto",
+  "lang": "en-US",
+  "start_url": "/first.html",
+  "scope": "/",
+  "categories": ["shopping", "business"],
+  "screenshots": [
+    {
+      "src": "icon512_rounded.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
